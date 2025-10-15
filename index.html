@@ -233,70 +233,153 @@
                 `
             },
             {
+                title: "Motor System",
+                subtitle: "",
+                body: `
+                    <div class="flex gap-6 items-start">
+                        <div class="flex-1">
+                            <div class="bg-orange-50 p-6 rounded-lg">
+                                <h3 class="text-2xl font-semibold mb-4 text-orange-900">N30 Micro Gear Motor</h3>
+                                <div class="space-y-3 text-base">
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium">Type:</span>
+                                        <span class="text-orange-700 font-bold">N30 Mini Gear Motor</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium">Thread:</span>
+                                        <span class="text-orange-700 font-bold">M4 x 100mm</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="font-medium">Function:</span>
+                                        <span class="text-orange-700 font-bold">Linear motion control</span>
+                                    </div>
+                                    <div class="bg-white p-4 rounded-lg mt-4">
+                                        <h4 class="font-semibold mb-3 text-gray-800">Mechanism:</h4>
+                                        <p class="text-sm text-gray-700 mb-2">
+                                            <span class="font-semibold">Lead screw nut</span> attaches to inner tube, converting motor rotation into linear movement along the threaded shaft.
+                                        </p>
+                                    </div>
+                                    <div class="bg-white p-4 rounded-lg mt-4">
+                                        <h4 class="font-semibold mb-3 text-gray-800">Cost Analysis:</h4>
+                                        <div class="space-y-2 text-sm text-gray-700">
+                                            <div class="flex justify-between">
+                                                <span>Per Motor + Nut:</span>
+                                                <span class="font-bold text-orange-600">£5.00+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-red-50 p-3 rounded-lg text-sm text-red-800 mt-3 border-l-4 border-red-500">
+                                        <span class="font-semibold">⚠ Challenge:</span> Currently most costly component. Need to source cheaper supplier.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="bg-white border-2 border-gray-200 p-4 rounded-lg">
+                                <img 
+                                    src="https://m.media-amazon.com/images/I/41cBsjwxRhS._AC_SL1000_.jpg" 
+                                    alt="N30 Micro Gear Motor"
+                                    class="w-full rounded"
+                                />
+                                <p class="text-center text-sm text-gray-600 mt-2">N30 M4×100mm Threaded Gear Motor</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
                 title: "Complete Cost Breakdown",
                 subtitle: "",
                 body: `
                     <div class="space-y-6">
-                        <div class="grid grid-cols-3 gap-4">
+                        <div class="grid grid-cols-2 gap-4">
                             <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-lg border-2 border-blue-200">
-                                <h3 class="text-lg font-semibold mb-3 text-blue-900">Black Box Profile</h3>
+                                <h3 class="text-base font-semibold mb-3 text-blue-900">Black Box Profile</h3>
                                 <div class="space-y-2 text-xs">
                                     <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Bulk Cost</div>
-                                        <div class="text-base font-bold">£90.62 / 75m</div>
-                                    </div>
-                                    <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Per Pixel (15cm)</div>
-                                        <div class="text-base font-bold">500 pixels</div>
-                                    </div>
-                                    <div class="bg-blue-600 text-white p-2 rounded text-center">
-                                        <div class="text-2xl font-bold">£0.18</div>
-                                        <div class="text-xs">per pixel</div>
+                                        <div class="text-gray-600 text-xs">Per Pixel (15cm)</div>
+                                        <div class="text-lg font-bold">£0.18</div>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-lg border-2 border-purple-200">
-                                <h3 class="text-lg font-semibold mb-3 text-purple-900">PETG Inner Tube</h3>
+                                <h3 class="text-base font-semibold mb-3 text-purple-900">PETG Inner Tube</h3>
                                 <div class="space-y-2 text-xs">
                                     <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Material Cost</div>
-                                        <div class="text-base font-bold">£30 / kg</div>
-                                    </div>
-                                    <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Per Pixel</div>
-                                        <div class="text-base font-bold">~2.5g</div>
-                                    </div>
-                                    <div class="bg-purple-600 text-white p-2 rounded text-center">
-                                        <div class="text-2xl font-bold">£0.075</div>
-                                        <div class="text-xs">per pixel</div>
+                                        <div class="text-gray-600 text-xs">Per Pixel (~2.5g)</div>
+                                        <div class="text-lg font-bold">£0.075</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="bg-gradient-to-br from-green-50 to-green-100 p-4 rounded-lg border-2 border-green-200">
-                                <h3 class="text-lg font-semibold mb-3 text-green-900">WS2811 LED</h3>
+                                <h3 class="text-base font-semibold mb-3 text-green-900">WS2811 LED</h3>
                                 <div class="space-y-2 text-xs">
                                     <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Bulk Cost</div>
-                                        <div class="text-base font-bold">£20 / 50 nodes</div>
+                                        <div class="text-gray-600 text-xs">Per Node</div>
+                                        <div class="text-lg font-bold">£0.40</div>
                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded-lg border-2 border-orange-200">
+                                <h3 class="text-base font-semibold mb-3 text-orange-900">Motor + Lead Screw Nut</h3>
+                                <div class="space-y-2 text-xs">
                                     <div class="bg-white p-2 rounded">
-                                        <div class="text-gray-600">Per Pixel</div>
-                                        <div class="text-base font-bold">1 node</div>
-                                    </div>
-                                    <div class="bg-green-600 text-white p-2 rounded text-center">
-                                        <div class="text-2xl font-bold">£0.40</div>
-                                        <div class="text-xs">per pixel</div>
+                                        <div class="text-gray-600 text-xs">Per Pixel</div>
+                                        <div class="text-lg font-bold text-orange-600">£5.00+</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-lg shadow-xl text-white text-center">
-                            <div class="text-lg mb-2 opacity-90">Total Cost Per Pixel</div>
-                            <div class="text-6xl font-bold">£0.655</div>
-                            <div class="text-base mt-3 opacity-90">Structure + LED (excluding power supply & controller)</div>
+                            <div class="text-lg mb-2 opacity-90">Total Cost Per Pixel (Current)</div>
+                            <div class="text-6xl font-bold">£5.655</div>
+                            <div class="text-base mt-3 opacity-90">Excluding power supply & controller</div>
+                            <div class="text-sm mt-2 bg-white bg-opacity-20 p-2 rounded">Motor cost needs optimization</div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Remaining Challenges",
+                subtitle: "",
+                body: `
+                    <div class="space-y-4">
+                        <div class="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
+                            <h4 class="font-semibold text-lg mb-2 text-red-900">💰 Cost Optimization</h4>
+                            <p class="text-gray-700 text-sm">Motor + lead screw nut currently £5+ per pixel. Need to source cheaper suppliers or alternative mechanisms.</p>
+                        </div>
+                        
+                        <div class="bg-amber-50 p-5 rounded-lg border-l-4 border-amber-500">
+                            <h4 class="font-semibold text-lg mb-2 text-amber-900">⚡ Power Management</h4>
+                            <p class="text-gray-700 text-sm">Significant power draw for hundreds of motors and LEDs simultaneously. Requires robust power distribution and thermal management.</p>
+                        </div>
+
+                        <div class="bg-orange-50 p-5 rounded-lg border-l-4 border-orange-500">
+                            <h4 class="font-semibold text-lg mb-2 text-orange-900">📍 Position Tracking</h4>
+                            <p class="text-gray-700 text-sm">DC motors lack built-in position feedback. No way to know current pixel location without additional sensors.</p>
+                        </div>
+
+                        <div class="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
+                            <h4 class="font-semibold text-lg mb-2 text-blue-900">💡 Innovative Solution: IR Surface Scanning</h4>
+                            <div class="text-gray-700 text-sm space-y-2">
+                                <p><span class="font-semibold">Approach:</span> 3D surface scanner using IR to detect real-time position of each pixel</p>
+                                <div class="bg-white p-3 rounded mt-2">
+                                    <p class="font-semibold text-blue-800 mb-1">Benefits:</p>
+                                    <ul class="list-disc list-inside space-y-1 text-xs">
+                                        <li>Real-time position feedback for all pixels</li>
+                                        <li>Individual motor control based on actual location</li>
+                                        <li>Closed-loop system without encoder complexity</li>
+                                        <li>Enables dynamic surface patterns and animations</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-amber-100 p-3 rounded mt-2 text-xs">
+                                    <span class="font-semibold">Requirements:</span> Significant compute power for real-time tracking and motor control of hundreds of pixels
+                                </div>
+                            </div>
                         </div>
                     </div>
                 `
@@ -306,9 +389,13 @@
                 subtitle: "",
                 body: `
                     <div class="space-y-4">
+                        <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                            <h4 class="font-semibold text-lg mb-2 text-red-900">Cost Optimization - Priority</h4>
+                            <p class="text-gray-700">Source cheaper motor and lead screw nut suppliers (currently £5+ per pixel)</p>
+                        </div>
                         <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <h4 class="font-semibold text-lg mb-2 text-blue-900">LED Integration</h4>
-                            <p class="text-gray-700">Select and test LED configuration for each pixel</p>
+                            <p class="text-gray-700">Finalize LED wiring and control system integration</p>
                         </div>
                         <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
                             <h4 class="font-semibold text-lg mb-2 text-green-900">Array Planning</h4>
